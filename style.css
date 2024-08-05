@@ -1,0 +1,613 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----------------------------- Nav Bar ------------------------- */
+.topHeader {
+  text-align: center;
+  background-color: #0c0c0c;
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+.navbar a {
+  color: rgb(4, 4, 4);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+.navbar .contact {
+  color: black;
+  margin-right: 20px;
+}
+.navbar .buttons {
+  display: flex;
+  gap: 10px;
+}
+.navbar .buttons button {
+  color: rgb(2, 2, 2);
+  padding: 10px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+}
+
+.navbar .buttons button:hover {
+  background-color: #ffe01b;
+  color: black;
+}
+.navbar .search-svg,
+.navbar .logo-svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  cursor: pointer;
+}
+
+/* --------------------------------------- Nav bar END----------------------------------------------------- */
+
+/* ---------------------------- Hero Section  ---------------------------*/
+.HeroContent {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heroContentHeading {
+  font-family: fantasy;
+  font-size: small;
+  font-weight: 100;
+  line-height: 16px;
+}
+.heroContentPara {
+  margin-top: 20px;
+  font-size: 60px;
+  line-height: 48px;
+}
+.contentPara2 {
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.contentButton {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.contentButton:hover {
+  background: #4f4503;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* ---------------------------- Hero Section  ---------------------------*/
+
+/* ---------------------------- How It Workd ---------------------------- */
+.container {
+  margin-top: 100px;
+  background-color: #17497f;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+}
+.howItWorks {
+  width: 40%;
+  padding: 200px 30px 50px 80px;
+}
+.worksHeading1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.worksHeading2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.worksPara {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.worksButton {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.sectionImage {
+  width: 60%;
+}
+.sectionImage img {
+  height: 700px;
+}
+
+/* ---------------------------- How It Workd END ---------------------------------------- */
+
+/* ---------------------------------------- Statistics Section ----------------------- */
+
+.statisticsContainer {
+  background-color: #241c15;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.emailHeading {
+  font-size: 48px;
+}
+.emailPara {
+  font-size: 20px;
+}
+
+.eightMillioHeading {
+  font-size: 48px;
+}
+.eightMillioPara {
+  font-size: 20px;
+}
+
+.FiveMillionHeading {
+  font-size: 48px;
+}
+.FiveMillionPara {
+  font-size: 20px;
+}
+
+.nintyHeading {
+  font-size: 48px;
+}
+.nintyPara {
+  font-size: 20px;
+}
+
+/* ------------------------------------ Statistics Section END ----------------------------- */
+
+/* -------------------------- Design Section --------------------------- */
+
+.designHeading {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.containerOne {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  width: 50%;
+  padding: 250px 50px 20px 100px;
+}
+.contentheading {
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 500;
+}
+.contentPara {
+  font-size: 17px;
+  text-align: left;
+  line-height: 35px;
+}
+.exploreButton {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.image {
+  width: 50%;
+  margin-top: 70px;
+}
+.image img {
+  height: 500px;
+  padding: 60px 80px 50px 10px;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.content2 {
+  width: 50%;
+  padding: 250px 150px 20px 100px;
+}
+.contentheading2 {
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 500;
+}
+.contentPara3 {
+  font-size: 17px;
+  text-align: left;
+  line-height: 35px;
+}
+.exploreButton2 {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.image2 {
+  width: 50%;
+  margin-top: 70px;
+}
+
+/* ------------------ Co-founder Section ------------------- */
+.founderSection {
+  width: 100%;
+  height: 500px;
+  background-color: #fbeeca;
+  text-align: center;
+}
+.founderSectionheading {
+  padding: 80px;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.founderSectionPara {
+  font-size: 30px;
+}
+
+/* -------------------------- engaging Section --------------------------- */
+
+.engagingHeading {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.engagingContainerOne {
+  display: flex;
+  flex-direction: row;
+}
+.engagingContent {
+  width: 50%;
+  padding: 250px 50px 20px 100px;
+}
+.engagingContentheading {
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 500;
+}
+.engagingContentPara {
+  font-size: 17px;
+  text-align: left;
+  line-height: 35px;
+}
+.engagingExplore {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.engagingImage {
+  width: 50%;
+  margin-top: 70px;
+}
+.engagingImage img {
+  height: 500px;
+  padding: 60px 80px 50px 10px;
+}
+
+.engagingContainerTwo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.engagingContent2 {
+  width: 50%;
+  padding: 250px 150px 20px 100px;
+}
+.engagingContentheading2 {
+  color: black;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 500;
+}
+.engagingContentPara2 {
+  font-size: 17px;
+  text-align: left;
+  line-height: 35px;
+}
+.engagingExploreButton2 {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.engagingImage2 {
+  width: 50%;
+  margin-top: 70px;
+}
+.engagingImage2 img {
+  height: 500px;
+  padding: 60px 80px 50px 10px;
+}
+
+/* -------------------- Images Section ---------------- */
+/* .imagesSection{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.imageLeft{
+    width: 200px;
+    height: 500px;
+}
+.imageRight{
+    width: 200px;
+    height: 500px;
+} */
+
+/* -------------------------- Strategy Container --------------------- */
+
+.strategyContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ab9393;
+  border-radius: 20px;
+}
+
+.Focus {
+  width: 50%;
+  padding: 100px;
+}
+.focusHeading {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.focusPara {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.focusButton {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.focusButton:hover {
+  background: #4f4503;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.Connect {
+  width: 50%;
+  padding: 100px;
+}
+.connectHeading {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.connectpara {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.connectButton {
+  background: #ffe01b;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.connectButton:hover {
+  background: #4f4503;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------- templates ------------------- */
+.templatesMainHeading{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    font-size: 35px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.emailCard {
+  padding: 50px;
+  
+}
+.emailCardHeading {
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.emailCardHeading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.emailCardPara {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.websiteCard {
+  padding: 50px;
+  
+}
+.websiteCardHeading {
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.websiteCardHeading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.websiteCardPara {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.bloggersCard {
+  padding: 50px;
+}
+.bloggersCardHeading {
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.bloggersCardHeading:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bloggersCardPara {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* -------------------------- Helping Container --------------- */
+.helpingContainer{
+    display: flex;
+    background-color: #F6F6F4;
+}
+
+.helpingContent{
+    width: 50%;
+    padding: 100px;
+}
+
+.helpHeading{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+.helpPara{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.helpButton{
+  background: #fffffd;
+  color: black;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.helpButton:hover{
+  background: #ffe01b;
+  color: black;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* ------------------------- marketingSection ------------- */
+.marketingSection{
+    background-color: #241C15;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: 400;
+    padding-top: 100px;
+  
+}
+
+.marketingButton{
+  background: #ffe01b;
+  color: black;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid rgb(255, 253, 253);
+  margin-top: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
